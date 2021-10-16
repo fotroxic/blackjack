@@ -1,0 +1,61 @@
+.container-1
+{
+    color: #fff;
+    width: 100%;
+    
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    background:url(https://www.wallpapertip.com/wmimgs/27-274792_aces-playing-cards-wallpaper-aces-wallpaper-card-game.jpg)center;
+}
+
+.flex-box-row-1,.flex-box-row-2,.flex-box-row-3
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+    flex-direction:row ;
+}
+
+.flex-box-row-1 img
+{
+    height: 200px;
+    width:150px;
+    padding: 10px;
+}
+
+
+
+.flex-box-row-1 div{
+
+    padding: 10px;
+    text-align: center;
+    height: 450px;
+    flex: 1;
+}
+
+.flex-box-row-3 table{
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+}
+
+.flex-box-row-3 table th{
+    padding: 10px;
+    border:1px solid #fff;
+}
+
+.flex-box-row-3 table td
+{
+    border: 1px solid #fff;
+    text-align: center;
+    
+}
+
+.btn-lg
+{
+    padding: 10px;
+    margin-right: 20px;
+    width: 150px;
+}
